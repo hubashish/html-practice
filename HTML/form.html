@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        .box{
+            width: 20%;
+            margin: 100px auto;
+            background-color: white;
+            padding: 30px;
+
+        }
+        h2{
+            text-align: center;
+            margin: 10px ;
+            font-size: 30px;
+            margin-bottom: 30px;
+
+        }
+        input{
+            width: 300px;
+            height: 35px;
+        }
+        .btn{
+            background-color: blue;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: white;
+            border-radius: 25px;
+            height: 45px;
+        }
+        label{
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        p{
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .checkbox{
+            align-self: flex-end;
+            font-size: medium;
+        }
+
+    </style>
+
+    <title>Login form</title>
+</head>
+<body>
+<div class="box">
+    <h2>Sign In</h2>
+    <input type="text" name="email addeess" placeholder="email address"> <br><br>
+    <input type="password" name="password" placeholder="password"> <br><br>
+    <div class="checkbox">
+    <label for="checkbox">Remember password</label>
+    <input type="checkbox" id="checkbox">
+</div>
+    <input type="submit" value="SIGN IN "><br><br><hr><br>
+    <input type="submit" value="SIGN IN WITH GOOGLE" action="https://accounts.google.com/signin">
+    <input type="submit" value="SIGN IN WITH FACEBOOK" action="www.facebook.com">
+
+
+
+</div>
+</body>
+</html>

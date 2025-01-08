@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Welcome to My World</h2>
+    <button onclick="myFunction()">Let's try</button>
+    <p id="demo"></p>
+    <script>
+        let person= prompt("Nagesh","");
+        let text;
+        if(person == null || person == ""){
+            text ="User canclled the prompt.";
+        }else
+        {
+            text ="Hello"+person+"!How are you today?";
+        }
+        document.getElementById("demo").innerHTML =text;
+
+      
+    
+
+    </script>
+</body>
+</html>

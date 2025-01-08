@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        
+        *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+
+    }
+    select{
+            border: none;
+            size: 20px;
+            
+         }
+         input{
+            width: 250px;
+            height: 50px;
+            border: none;
+            border-radius: 10px; 
+            background-color: rgb(203, 203, 203);
+            text-align: left;  
+            position: absolute; 
+            padding-right: 10px;   
+         }
+         .img{
+            position: absolute;
+            left: 210px;
+            top: 5px;
+            height: 40px;
+         }
+         .text{
+            position: relative;
+         }
+         ul li{
+            display: inline-block;
+            justify-content: space-between;
+            margin-left: 50px;
+            font-size: small;
+            text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+         }
+         ul{
+            margin-right: 10px;
+         }
+         li a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+
+         }
+         .nav{
+            justify-content: center;
+         }
+         .nav ul li{
+            font-size: medium;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+         }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <nav>
+        <div class="logo">
+            <img src="https://imgcdn.floweraura.com/fa-logo/final-23-desk.svg" alt="">
+        </div>
+        <select name="" id="">
+            <option value="car">Deliver To</option>
+            <option value="">Deliver To</option>
+            <option value="">Deliver To</option>
+            <option value="">Deliver To</option>
+        </select>
+        <div class="text">
+        <input type="text" placeholder="Search for valentine day gifts...">
+        <img src="https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-search-strong-512.png" class="img" alt="" height="50px">
+    </div>
+    <ul>
+        <li><img src="https://cdn4.iconfinder.com/data/icons/e-commerce-732/1024/Track_Order-64.png" alt="" height="40px"><br><a href="">Track Order</a></li>
+        <li><img src="https://cdn4.iconfinder.com/data/icons/e-commerce-732/1024/Track_Order-64.png" alt="" height="40px"><br><a href=""> Gift Finder</a></li>
+        <li><img src="https://cdn0.iconfinder.com/data/icons/mobile-basic-vol-1/32/Tote_Bag-64.png" alt="" height="40px"><br><a href="">Cart</a></li>
+        <li><img src="https://cdn4.iconfinder.com/data/icons/e-commerce-732/1024/Track_Order-64.png" alt="" height="40px"><br><a href="">Sign In</a></li>
+        <li><img src="https://cdn2.iconfinder.com/data/icons/css-vol-1/24/details-more-64.png" alt="" height="40px"><br><a href="">More</a></li>
+
+    </ul>
+    </nav><br>
+    <hr>
+    <nav class="nav">
+        <ul>
+            <li><a href="">Express Delivery</a></li>
+            <li><a href="">Cakes</a></li>
+            <li><a href="">Flowers</a></li>
+            <li><a href="">Combos</a></li>
+            <li><a href="">Personalised</a></li>
+            <li><a href="">Plants</a></li>
+            <li><a href="">Gifts</a></li>
+            <li><a href="">Anniversary</a></li>
+            <li><a href="">Birthday</a></li>
+            <li><a href="">Occasions</a></li>
+            <li><a href="">International</a></li>
+
+        </ul>
+    </nav><br>
+    <hr>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href=""><img src="https://imgcdn.floweraura.com/fathers_day_landingpage_fa_desktop_1.jpg?tr=w-1583,dpr-1.5,q-70" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+           <a href=""> <img src="https://imgcdn.floweraura.com/flower_birthday_homepage_fa_desktop.jpg?tr=w-1583,dpr-1.5,q-70" class="d-block w-100" alt="..."></a>
+          </div>
+          <div class="carousel-item">
+            <a href=""><img src="https://imgcdn.floweraura.com/birthday_homepage_fa_d.jpg?tr=w-1583,dpr-1.5,q-70" class="d-block w-100" alt="..."></a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</body>
+</html>
